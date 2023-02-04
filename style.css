@@ -1,0 +1,151 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    background-color: #22212C;
+    font-family: Merriweather Sans;
+    font-weight: 400, 500 e 700;
+    display: flex;
+    color: #837E9F;
+    margin: 30px;
+    
+
+}
+
+
+/***/
+.perfilkillua {
+    width:150px;
+    border: 2px solid greenyellow;
+    border-radius: 50%; 
+}
+.perfil {
+    background-color: #302F3D;
+    padding: 50px 20px;
+    width: 270px;
+    border-radius: 20px;
+    text-align: center;
+    border-bottom: 2px rgba(0, 0, 0, 0.568) solid;
+    border-right: 2px rgba(0, 0, 0, 0.568) solid;
+}
+#nome {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#textperfil {
+    color: #837e9f85;
+
+}
+
+/**/
+.info {
+    background-color: #302F3D;
+    padding: 30px;
+    margin: 30px 0px 0px;
+    border-radius: 20px;
+    border-bottom: 2px rgba(0, 0, 0, 0.568) solid;
+    border-right: 2px rgba(0, 0, 0, 0.568) solid;
+
+}
+.ico {
+    margin-bottom: 10px;
+}
+.inf:hover {
+    color: white;
+}
+
+.data {
+    color: #837e9f5d;
+
+}
+
+/***/
+main {
+    width: 100%;
+    margin-left: 30px;
+}
+.description {
+    background-color: #302F3D;
+    padding: 20px;
+    border-radius: 20px;
+    border-bottom: 2px rgba(0, 0, 0, 0.568) solid;
+    border-right: 2px rgba(0, 0, 0, 0.568) solid;
+}
+
+
+/**/
+.extras {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.gradu {
+    background-color: #302F3D;
+    width: 50%;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border-bottom: 2px rgba(0, 0, 0, 0.568) solid;
+    border-right: 2px rgba(0, 0, 0, 0.568) solid;
+}
+.cursos {
+    background-color: #302F3D;
+    flex-direction: right;
+    width: 50%;
+    padding: 20px 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border-bottom: 2px rgba(0, 0, 0, 0.568) solid;
+    border-right: 2px rgba(0, 0, 0, 0.568) solid;
+}
+
+
+/**/
+.habili {
+    display: flex;
+    height: 30%;
+}
+#hard{
+    background-color: #302F3D;
+    width: 35%;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border-bottom: 2px rgba(0, 0, 0, 0.568) solid;
+    border-right: 2px rgba(0, 0, 0, 0.568) solid;
+}
+#soft{
+    background-color: #302F3D;
+    width: 35%;
+    padding: 20px 40px;
+    margin: 0px 20px;
+    border-radius: 20px;
+    border-bottom: 2px rgba(0, 0, 0, 0.568) solid;
+    border-right: 2px rgba(0, 0, 0, 0.568) solid;
+}
+#tech{ 
+    background-color: #302F3D;
+    width: 25%;
+    padding: 20px;
+    border-radius: 20px;
+    border-bottom: 2px rgba(0, 0, 0, 0.568) solid;
+    border-right: 2px rgba(0, 0, 0, 0.568) solid;
+}
+.tec{
+    background-color: rgba(99, 111, 179, 0.733);
+    padding: 10px;
+    width: 100px;
+    border: #837E9F;
+    border-radius: 45%;
+}
+.tec:hover {
+    background-color:#22212C;
+    color: #837E9F;
+
+}
+h1:hover {
+    color: rgba(0, 0, 0, 0.24);
+}
+h1 {
+    margin-bottom: 10px;
+}
